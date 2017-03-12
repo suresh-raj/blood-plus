@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent" >
+    
+    
+     <RelativeLayout
+          android:id="@+id/RelativeLayout2"
+          
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+           >
+
+<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        
+        android:background="@android:drawable/divider_horizontal_dark" />
+      <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:text="Login" />
+      
+      
+        
+      </RelativeLayout>
+
+
+      <ScrollView
+          android:id="@+id/scrollView1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_above="@id/RelativeLayout2" >
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" >
+
+              <TextView
+                  android:id="@+id/textView2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@+id/editText2"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@+id/editText2"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginTop="58dp"
+                  android:text="Lazy to login?"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textColor="#000000" />
+
+              <TextView
+                  android:id="@+id/textView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@+id/editText1"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@+id/textView2"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginBottom="30dp"
+                  android:layout_marginLeft="50dp"
+                  android:text="Sign in with G+"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:textColor="#000000" />
+
+              <EditText
+                  android:id="@+id/editText2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/editText1"
+                  android:layout_marginLeft="50dp"
+                  android:layout_marginRight="50dp"
+                  android:layout_marginTop="30dp"
+                  android:ems="10"
+                  android:gravity="center"
+                  android:hint="password"
+                  android:inputType="textPassword"
+                  android:shadowColor="#ff0000"
+                  android:shadowRadius="0.5" />
+
+              <LinearLayout
+                  android:id="@+id/linearLayout1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignBaseline="@id/textView2"
+                  android:orientation="horizontal"
+                  android:padding="2dip"
+                  android:visibility="gone" >
+
+                  
+
+                  <Button
+                      android:id="@+id/sign_out_button"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:enabled="false"
+                      android:visibility="gone"
+                      android:text="@string/sign_out_button_name" />
+
+                  <Button
+                      android:id="@+id/revoke_access_button"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:enabled="false"
+                      android:text="@string/revoke_access_button_name"
+                      android:visibility="gone" />
+              </LinearLayout>
+
+              <EditText
+                  android:id="@+id/editText1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/sign_in_button"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="29dp"
+                  android:ems="10"
+                  android:gravity="center"
+                  android:hint="email"
+                  android:inputType="textEmailAddress"
+                  android:shadowColor="#ff0000"
+                  android:shadowRadius="0.5" >
+
+                  
+              </EditText>
+
+              <com.google.android.gms.common.SignInButton
+                  android:id="@+id/sign_in_button"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginLeft="30dp"
+                  android:layout_toRightOf="@+id/textView3"
+                  android:enabled="true" >
+              </com.google.android.gms.common.SignInButton>
+
+          </RelativeLayout>
+      
+      </ScrollView>
+
+     
+</RelativeLayout>

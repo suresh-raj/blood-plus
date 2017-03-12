@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blood.plus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	 <uses-permission android:name="android.permission.CALL_PHONE"/>
+	 <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logot"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.blood.plus.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>        
+         <activity 
+              android:parentActivityName="com.blood.plus.MainActivity"
+              android:uiOptions="splitActionBarWhenNarrow"
+              android:name=".search_result"
+             android:label="Donors near you">
+            <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+         <meta-data    android:name="android.support.PARENT_ACTIVITY"
+            			android:value="com.blood.plus.MainActivity"/>
+             
+         </activity>
+         <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+         <!--<activity
+            android:name="com.blood.plus.RegFinal"
+            android:label="Register" >
+            
+        </activity>-->
+         <activity
+            android:name="com.blood.plus.Update"
+            android:label="Updater" >
+            
+        </activity>          
+    </application>
+
+</manifest>

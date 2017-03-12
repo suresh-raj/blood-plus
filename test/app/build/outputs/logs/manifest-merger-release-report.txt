@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Sivasankaran\.android\build-cache\92fa6777c98b81a543734a67212018f82c94c8cd\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Sivasankaran\.android\build-cache\cddd5038baeee013446e7dc6af3369f36188a027\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Sivasankaran\.android\build-cache\1c4358a22439162e58d15ce8773cded10afec2f0\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Sivasankaran\.android\build-cache\d9819fd8f097dd84502bc8be5ecea7aa6c6e7278\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Sivasankaran\.android\build-cache\9df8b9bed56b6a572fc0d293c6770cd9840a5199\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Sivasankaran\.android\build-cache\d7ac3980f87f2380ab3333055cd1a4fd58997ec2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Sivasankaran\.android\build-cache\2ceb881131dce1b4ee95c9b93a1e808b958ee1cb\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Sivasankaran\.android\build-cache\ca5bdf644f77be72a255dabc86a96368beaa9e0d\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Sivasankaran\.android\build-cache\4ec07d21d3ad98ac0fd839ac8288ad470e0d940b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Sivasankaran\.android\build-cache\df04d35324dbe118a0fc67362bdca33b4a82a661\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Sivasankaran\.android\build-cache\476d680c1512d13cbc9add4007565a4312a18a41\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Sivasankaran\.android\build-cache\087bdd1d424bfa0cc04c3b8012b2483e6182a932\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Sivasankaran\.android\build-cache\92fa6777c98b81a543734a67212018f82c94c8cd\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:10:2-67
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:10:19-65
+uses-permission#android.permission.INTERNET
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:11:2-63
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:11:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:12:2-75
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:12:19-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:13:3-76
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:13:20-74
+uses-permission#android.permission.CALL_PHONE
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:14:3-66
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:14:20-64
+uses-permission#android.permission.SEND_SMS
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:15:3-64
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:15:20-62
+application
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:16:5-55:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Sivasankaran\.android\build-cache\92fa6777c98b81a543734a67212018f82c94c8cd\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Sivasankaran\.android\build-cache\cddd5038baeee013446e7dc6af3369f36188a027\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Sivasankaran\.android\build-cache\1c4358a22439162e58d15ce8773cded10afec2f0\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Sivasankaran\.android\build-cache\d9819fd8f097dd84502bc8be5ecea7aa6c6e7278\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Sivasankaran\.android\build-cache\9df8b9bed56b6a572fc0d293c6770cd9840a5199\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Sivasankaran\.android\build-cache\d7ac3980f87f2380ab3333055cd1a4fd58997ec2\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Sivasankaran\.android\build-cache\2ceb881131dce1b4ee95c9b93a1e808b958ee1cb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Sivasankaran\.android\build-cache\ca5bdf644f77be72a255dabc86a96368beaa9e0d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Sivasankaran\.android\build-cache\4ec07d21d3ad98ac0fd839ac8288ad470e0d940b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Sivasankaran\.android\build-cache\df04d35324dbe118a0fc67362bdca33b4a82a661\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Sivasankaran\.android\build-cache\476d680c1512d13cbc9add4007565a4312a18a41\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Sivasankaran\.android\build-cache\087bdd1d424bfa0cc04c3b8012b2483e6182a932\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:18:9-39
+	android:theme
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:20:9-52
+activity#com.blood.plus.MainActivity
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:22:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.blood.plus.search_result
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:31:10-41:21
+	android:label
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:35:14-45
+	android:parentActivityName
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:32:15-71
+	android:uiOptions
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:33:15-59
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:34:15-44
+meta-data#android.support.UI_OPTIONS
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:36:13-37:63
+	android:value
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:37:20-60
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:36:24-65
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:38:10-39:61
+	android:value
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:39:16-59
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:38:24-70
+meta-data#com.google.android.gms.version
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:42:10-44:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Sivasankaran\.android\build-cache\d7ac3980f87f2380ab3333055cd1a4fd58997ec2\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:44:13-66
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:43:13-58
+activity#com.blood.plus.Update
+ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:50:10-54:20
+	android:label
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from G:\Projects\bloodplus\test\app\src\main\AndroidManifest.xml:51:13-49
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\AndroidManifest.xml:19:19-85
