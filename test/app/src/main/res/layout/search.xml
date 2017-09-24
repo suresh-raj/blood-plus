@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+  
+        
+  
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+       >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:drawable/divider_horizontal_dark" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:text="Search"
+            android:gravity="center" >
+
+        </Button>
+    </RelativeLayout>
+  <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_above="@+id/relativeLayout1"
+        android:layout_alignParentTop="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+         >
+
+        <Spinner
+            android:id="@+id/bloodSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="Blood Group"
+            android:ems="10"
+            android:hint="Blood Group"
+            android:paddingLeft="30dp"
+            android:textAlignment="center"
+            android:textColorHint="#ff0000" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Search Donors near you .."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+
+        <Spinner
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zoneSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:contentDescription="City"
+            android:paddingLeft="30dp"
+            android:textAlignment="center" />
+
+      
+        <Spinner
+            android:id="@+id/zoneSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bloodSpinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:contentDescription="Zone"
+            android:paddingLeft="30dp"
+            android:textAlignment="center" />
+
+	<RelativeLayout
+	    android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/bloodSpinner"
+	    android:layout_alignRight="@+id/bloodSpinner"
+	    android:layout_below="@+id/city"
+	    android:background="#eeeeee" >
+        
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp"
+            android:text="longitude" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView2"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/textView3"
+            android:src="@drawable/ic_action_locate" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="lattitude" />
+        
+        </RelativeLayout>
+
+    </RelativeLayout>
+	</ScrollView>
+    
+  
+</RelativeLayout>

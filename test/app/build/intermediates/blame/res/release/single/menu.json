@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\Projects\\bloodplus\\test\\app\\build\\intermediates\\res\\merged\\release\\menu\\update.xml",
+        "source": "G:\\Projects\\bloodplus\\test\\app\\src\\main\\res\\menu\\update.xml"
+    },
+    {
+        "merged": "G:\\Projects\\bloodplus\\test\\app\\build\\intermediates\\res\\merged\\release\\menu\\result_action.xml",
+        "source": "G:\\Projects\\bloodplus\\test\\app\\src\\main\\res\\menu\\result_action.xml"
+    },
+    {
+        "merged": "G:\\Projects\\bloodplus\\test\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "G:\\Projects\\bloodplus\\test\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "G:\\Projects\\bloodplus\\test\\app\\build\\intermediates\\res\\merged\\release\\menu\\global.xml",
+        "source": "G:\\Projects\\bloodplus\\test\\app\\src\\main\\res\\menu\\global.xml"
+    }
+]

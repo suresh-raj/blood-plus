@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sivasankaran\.android\build-cache\29aafa93261252b026832dd187e5359954837d11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="G:\Projects\bloodplus\test\app\build\intermediates\pre-dexed\debug\classes_1a23fba30fd445677453d232d43e60f43aad19f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sivasankaran\.android\build-cache\9df8b9bed56b6a572fc0d293c6770cd9840a5199\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="G:\Projects\bloodplus\test\app\build\intermediates\pre-dexed\debug\classes_799524f998c330059246ad99e4bbb390b6c62b21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sivasankaran\.android\build-cache\d9819fd8f097dd84502bc8be5ecea7aa6c6e7278\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="G:\Projects\bloodplus\test\app\build\intermediates\pre-dexed\debug\classes_ecaac100e7a1cdc8df2c74134222bc4079004dff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sivasankaran\.android\build-cache\d7ac3980f87f2380ab3333055cd1a4fd58997ec2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="G:\Projects\bloodplus\test\app\build\intermediates\pre-dexed\debug\classes_b00108cbf24b410a8067df287b8f09ed936b3240.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sivasankaran\.android\build-cache\52c778cc2bfc84b75862223f5407f29e7c4d46e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="G:\Projects\bloodplus\test\app\build\intermediates\pre-dexed\debug\classes_7b331508b880202a7d3a91ecedba48cc0848b6cd.jar" />
+    </item>
+
+</items>

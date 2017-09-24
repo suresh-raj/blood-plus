@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test.MainActivity" >
+
+    <item
+        android:id="@+id/call"
+        android:title="call"
+        android:icon="@drawable/ic_action_end_call"
+        app:showAsAction="withText|always"/>
+     <item
+        android:id="@+id/sms"
+        android:title="sms"
+        android:icon="@drawable/ic_action_chat"
+        app:showAsAction="withText|always"/>
+      <item
+        android:id="@+id/locate"
+        android:title="locate"
+        android:icon="@drawable/ic_action_place"
+        app:showAsAction="withText|always"/>
+       <item
+        android:id="@+id/email"
+        android:title="email"
+        android:icon="@drawable/ic_action_email"
+        app:showAsAction="withText|always"/>
+    
+    </menu>
